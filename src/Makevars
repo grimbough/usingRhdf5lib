@@ -1,0 +1,1 @@
+PKG_LIBS=-L/home/msmith/Applications/R/R-3.4.0/library/Rhdf5lib/lib/ -lhdf5_cpp -lhdf5 -ldl -lz
