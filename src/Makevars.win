@@ -1,6 +1,3 @@
-#RHDF5_LIBS=`echo 'Rhdf5lib::pkgconfig("PKG_LIBS")'|\
-#    "${R_HOME}/bin/R" --vanilla --slave`
-#PKG_LIBS=$(RHDF5_LIBS)
-#PKG_LIBS=-Lc:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/ -lhdf5_cpp -lhdf5 -lz -lws2_32 -ldl -lm -lpsapi
-PKG_LIBS=-l:c:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/libhdf5_cpp.a \
--Lc:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/ -lhdf5 -lz -ldl -lpsapi
+RHDF5_LIBS=`echo 'Rhdf5lib::pkgconfig("PKG_LIBS")'|\
+    "${R_HOME}/bin/R" --vanilla --slave`
+PKG_LIBS=$(RHDF5_LIBS)
