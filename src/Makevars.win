@@ -1,4 +1,6 @@
 #RHDF5_LIBS=`echo 'Rhdf5lib::pkgconfig("PKG_LIBS")'|\
 #    "${R_HOME}/bin/R" --vanilla --slave`
 #PKG_LIBS=$(RHDF5_LIBS)
-PKG_LIBS=-L"C:/Users/Mike Smith/Documents/R/win-library/3.4/Rhdf5lib/lib/x64" -lhdf5_cpp -lhdf5 -lz -lm
+#PKG_LIBS=-Lc:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/ -lhdf5_cpp -lhdf5 -lz -lws2_32 -ldl -lm -lpsapi
+PKG_LIBS=-l:c:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/libhdf5_cpp.a \
+-Lc:/Users/Mike/Code/github/Rhdf5lib/src/winlib/x64/ -lhdf5 -lz -ldl -lpsapi

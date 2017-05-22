@@ -28,7 +28,7 @@ const int	 NY = 6;
 const int	 RANK = 2;
 
 extern "C" {
-void create_dataset ()
+void create_dataset_cxx ()
 {
     // Try block to detect exceptions raised by any of the calls inside it
     try
@@ -71,3 +71,4 @@ void create_dataset ()
 
 }
 }
+
