@@ -9,5 +9,5 @@ Description: Used to illustrate how to include C and C++ code that links
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
-Depends: Rhdf5lib
+Imports: Rhdf5lib
 LinkingTo: Rhdf5lib
