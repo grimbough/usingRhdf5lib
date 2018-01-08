@@ -1,7 +1,7 @@
 Package: usingRhdf5lib
 Type: Package
 Title: Example code for using Rhdf5lib.
-Version: 0.0.3
+Version: 0.0.4
 Author: Mike Smith
 Maintainer: Mike Smith <grimbough@gmail.com>
 Description: Used to illustrate how to include C and C++ code that links

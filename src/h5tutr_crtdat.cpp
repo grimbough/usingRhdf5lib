@@ -18,7 +18,7 @@
 
 #include <iostream>
 #include <string>
-#include "c++/H5Cpp.h"
+#include "H5Cpp.h"
 using namespace H5;
 
 const H5std_string	FILE_NAME("h5tutr_dset.h5");
